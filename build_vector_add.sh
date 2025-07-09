@@ -1,0 +1,1 @@
+gcc vector_add.c -o vector_add.o

@@ -10,7 +10,7 @@ set key top left
 set grid
 
 set logscale x 2
-set xtics format "10^{%L}"
+set xtics format "2^{%L}"
 
 # 畫兩條線：過濾掉含 <notcounted> 的行
 plot \

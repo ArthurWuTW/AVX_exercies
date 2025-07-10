@@ -26,5 +26,9 @@ int main(int argc, char const *argv[])
     // }
     // std::cout << "Scalar vector add took: " << duration << "ms \n";
 
+    // Fake use for preventing from dead store elimination
+    float acc = C[0];
+    std::cout << acc << '\n';
+
     return 0;
 }
